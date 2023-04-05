@@ -1,5 +1,36 @@
-<div class="container">
-  <h1>Título do Artigo</h1>
-  <p>Texto do artigo aqui</p>
-  <img src="caminho/para/imagem.jpg">
-</div>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>KAPPY News</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>KAPPY News</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Início</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+      <h2>Adicionar Notícia</h2>
+      <form id="form-noticia">
+        <label for="titulo-noticia">Oq é sociologia?</label>
+        <input type="text" id="titulo-noticia" name="titulo-noticia" required>
+        <label for="texto-noticia">Meu pau na sua tia</label>
+        <textarea id="texto-noticia" name="texto-noticia" required></textarea>
+        <label for="imagem-noticia">AI TOMA</label>
+        <input type="file" id="imagem-noticia" name="imagem-noticia">
+        <button type="submit">Adicionar Notícia</button>
+      </form>
+      
+      <h2>Últimas Notícias</h2>
+      <ul id="lista-noticias"></ul>
+    </main>
+    
+    <script src="app.js"></script>
+  </body>
+</html>
