@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Notícias do Dia</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Notícias do Dia</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Início</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+      <h2>Adicionar Notícia</h2>
+      <form id="form-noticia">
+        <label for="titulo-noticia">Título da Notícia:</label>
+        <input type="text" id="titulo-noticia" name="titulo-noticia" required>
+        <label for="texto-noticia">Texto da Notícia:</label>
+        <textarea id="texto-noticia" name="texto-noticia" required></textarea>
+        <label for="imagem-noticia">Imagem da Notícia:</label>
+        <input type="file" id="imagem-noticia" name="imagem-noticia">
+        <button type="submit">Adicionar Notícia</button>
+      </form>
+      
+      <h2>Últimas Notícias</h2>
+      <ul id="lista-noticias"></ul>
+    </main>
+    
+    <script src="app.js"></script>
+  </body>
+</html>
