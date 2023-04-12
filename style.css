@@ -6,6 +6,12 @@
       body {
         background-color: #F5DEB3;
       }
+      
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+        text-align: center;
+      }
     </style>
   </head>
   <body>
