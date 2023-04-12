@@ -1,9 +1,17 @@
-body {
-  background-color: #F5DEB3;
-}
-
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-  text-align: center;
-}
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>KAPPY News</title>
+    <style>
+      body {
+        background-color: #F5DEB3;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Dia Internacional das Mulheres</h1>
+      <p>Texto da notícia aqui</p>
+    </div>
+  </body>
+</html>
